@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw data tracked by DVC, not Git
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+data/raw/*.zip
+!data/raw/PUT_TEST_DATA_HERE.txt
+
+# MLflow local artifacts
+mlruns/
+mlflow.db
+
+# Generated outputs
+submissions/*.csv
+models/*.pkl
+models/*.joblib
+
+# OS/editor
+.DS_Store
+.vscode/
