@@ -1,0 +1,4 @@
+[core]
+    remote = localremote
+['remote "localremote"']
+    url = gdrive://1OroAAAP3Cri90H45SNgkELBQPlMTQDvw
